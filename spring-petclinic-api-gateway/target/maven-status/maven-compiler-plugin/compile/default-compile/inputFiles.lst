@@ -1,0 +1,11 @@
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayDiscoveryConfig.java
+/home/ubuntu/teraform/petclinic/spring-petclinic-cloud/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/InsecurityConfiguration.java
