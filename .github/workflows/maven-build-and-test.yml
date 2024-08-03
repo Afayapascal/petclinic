@@ -121,7 +121,7 @@ jobs:
     - name: Clone repository
       run: |
         rm -Rf *
-        git clone git@github.com:Mehdi-Lucas/spring-petclinic-cloud-deployment.git
+        git clone git@github.com:Afayapascal/spring-petclinic-cloud-deployment.git
         ls
         cd spring-petclinic-cloud-deployment/
         cat values.yaml
@@ -131,7 +131,7 @@ jobs:
       run: |
         ls
         cd spring-petclinic-cloud-deployment
-        git config --global user.name "Mehdi-Lucas"
+        git config --global user.name "Afayapascal"
         git add -A
         git commit -m "mis à jour de l'image avec le tag ${GITHUB_SHA}"
         git push origin master
