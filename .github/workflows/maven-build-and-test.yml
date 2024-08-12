@@ -68,8 +68,8 @@ jobs:
     - name: Upload alerts to Security tab
       uses: github/codeql-action/upload-sarif@v2
       with:
-       # sarif_file: ${{ steps.msdo.outputs.sarifFile }}
-        sarif_file: results.sarif
+        sarif_file: ${{ steps.msdo.outputs.sarifFile }}
+
       # Upload alerts file as a workflow artifact
     - name: Upload alerts file as a workflow artifact
       uses: actions/upload-artifact@v3
