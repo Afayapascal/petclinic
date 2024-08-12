@@ -51,7 +51,7 @@ jobs:
     runs-on: windows-latest
     steps:
       # Checkout your code repository to scan
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       # Run analyzers
     - name: Run Microsoft Security DevOps Analysis
       uses: microsoft/security-devops-action@latest
@@ -66,7 +66,7 @@ jobs:
 
       # Upload alerts to the Security tab
     - name: Upload alerts to Security tab
-      uses: github/codeql-action/upload-sarif@v2
+      uses: github/codeql-action/upload-sarif@v3
       with:
         sarif_file: ${{ steps.msdo.outputs.sarifFile }}
 
