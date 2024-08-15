@@ -118,7 +118,7 @@ jobs:
       uses: MrSquaare/ssh-setup-action@v1
       with:
           host: github.com
-         #private-key: ${{ secrets.id_rsa }}
+         # private-key: ${{ secrets.id_rsa }}
           private-key: ${{ secrets.SSH_PRIVATE_KEY }}          
     - name: Clone repository
       run: |
