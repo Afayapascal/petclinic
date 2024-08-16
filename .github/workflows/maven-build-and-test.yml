@@ -125,7 +125,7 @@ jobs:
         rm -Rf *
         git clone git@github.com:Afayapascal/spring-petclinic-cloud-deployment.git
         ls
-        cd spring-petclinic-cloud-deployment/
+        cd spring-petclinic-cloud-deployment/petclinichelm
         cat values.yaml
         sed -i "s+tag.*+tag: ${GITHUB_SHA}+g" values.yaml
         cat values.yaml
