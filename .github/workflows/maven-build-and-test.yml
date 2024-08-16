@@ -134,7 +134,8 @@ jobs:
       run: |
         ls
         cd spring-petclinic-cloud-deployment/petclinichelm
-        git config --global user.name "pfokam@afaya-it.com"
+        git config --global user.email "pfokam@afaya-it.com"
+        git config --global user.name "Afayapascal"
         git add -A
         git commit -m "mis à jour de l'image avec le tag ${GITHUB_SHA}"
         git push origin master
