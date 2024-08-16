@@ -133,7 +133,7 @@ jobs:
     - name: Commit and push changes
       run: |
         ls
-        cd spring-petclinic-cloud-deployment
+        cd spring-petclinic-cloud-deployment/petclinichelm
         git config --global user.name "pfokam@afaya-it.com"
         git add -A
         git commit -m "mis à jour de l'image avec le tag ${GITHUB_SHA}"
