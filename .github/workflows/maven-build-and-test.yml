@@ -66,7 +66,7 @@ jobs:
       # languages: string. Optional. A comma-separated list of languages to analyze. Example: 'javascript,typescript'. Defaults to all.
       # tools: string. Optional. A comma-separated list of analyzer tools to run. Values: 'bandit', 'binskim', 'eslint', 'templateanalyzer', 'terrascan', 'trivy'.
 
-      # Upload alerts to the Security tab
+      # Upload alerts to the Security tab.
     - name: Upload alerts to Security tab
       uses: github/codeql-action/upload-sarif@v2
       with:
