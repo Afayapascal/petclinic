@@ -80,7 +80,7 @@ jobs:
         path: ${{ steps.msdo.outputs.sarifFile }}
       
   build-and-push:
-    #build image and push
+    #build image and push new
     needs: secure
     runs-on: ubuntu-latest
 
