@@ -120,7 +120,6 @@ jobs:
 #         cat /tmp/k8s/*.yaml | \
 #           sed "s#\${REPOSITORY_PREFIX}#${{ secrets.DOCKERHUB_ID }}#g" | \
 #           kubectl apply -f - -n dev
-#
   AWS_deploy:
    needs: build-and-push 15
    runs-on: ubuntu-latest
