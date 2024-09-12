@@ -46,7 +46,7 @@ jobs:
   secure:
     needs: test
     name: Microsoft Security DevOps Analysis
-    # MSDO runs on windows-latest
+    # MSDO runs on windows-latest new
     # ubuntu-latest also supported
     # windows-latest
     runs-on: windows-latest
